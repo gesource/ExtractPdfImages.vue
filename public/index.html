@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.1.266/build/pdf.min.js"></script>
+    <title>extract-pdf-images</title>
+  </head>
+  <body>
+    <h1>PDFファイルから画像を抽出</h1>
+    <p>
+      PDFファイル内の画像を抽出します。<br>
+      すべての処理はブラウザ上で実行します。<br>
+      サーバーには送信しません。
+    </p>
+    <h2>使い方</h2>
+    <p>
+      下の「PDFファイルを選択」をクリックしてPDFファイルを選択、または、「PDFファイルを選択」にPDFファイルをドロップすると、PDFファイル内の画像が表示されます。
+    </p>
+    <noscript>
+      <strong>We're sorry but extract-pdf-images doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
